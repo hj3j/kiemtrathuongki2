@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 960px;
+    background-color: black;
+    margin: auto;
+}
+
+.nav {
+    width: 960px;
+    background-color:aquamarine;
+    height: 60px;
+    float: left; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li a{
+    padding: 0 24px;
+    text-decoration: none;
+    line-height: 46.5px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.search{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.search input[type="text"],
+.search button[type="submit"] {
+  margin-left: 10px;
+}
+
+
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.contain{
+    /* height: 450px; */
+    background-color: #b9e1e9; 
+}
+
+.section{
+    float: left;
+    width: 672px;
+    /* height: 450px ; */
+    background-color: #b9e1e9;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+
+.content {
+    float: left;
+    /* height: 600px; */
+    width: 50%;
+    padding: 20px 105px 10px 40px;
+     background-color: #b9e1e9;
+  }
+
+.content p {
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+
+
+.aside{
+    float: right;
+    width: 288px;
+    background-color: white;
+}
+
+h2{
+    text-align: center;
+    color: red;
+}
+
+.aside .chuaanh{
+ margin: 10px 0;
+ border-top: dashed red 2px;
+}
+
+.footer{
+    background-color: #cbcc66;  
+    float: left;
+    width: 100%;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.content-left{
+    float: left;
+    margin: 15px 15px 15px 0px;
+}
+
+.content-right{
+    float: right;
+}
